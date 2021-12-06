@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="NotificationsVisualizerLibraryTest.UpdateImageInUsePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NotificationsVisualizerLibraryTest"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:visualizer="using:NotificationsVisualizerLibrary">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <StackPanel>
+            <visualizer:PreviewTile
+                x:Name="MediumPreviewTile"
+                IsAnimationEnabled="False"/>
+
+            <Button
+                x:Name="ButtonUpdateImage"
+                Content="Update Image"
+                Click="ButtonUpdateImage_Click"/>
+
+        </StackPanel>
+
+    </Grid>
+</Page>

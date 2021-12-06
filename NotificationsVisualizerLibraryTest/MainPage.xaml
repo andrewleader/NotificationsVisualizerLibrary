@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="NotificationsVisualizerLibraryTest.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NotificationsVisualizerLibraryTest"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:templateVisualizerLibrary="using:NotificationsVisualizerLibrary">
+
+    <ScrollViewer x:Name="Root" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <StackPanel>
+
+            <Button
+                x:Name="ButtonOpenSampleSettingsPage"
+                Content="Open Sample Settings Page"
+                Click="ButtonOpenSampleSettingsPage_Click"/>
+
+            <Button
+                x:Name="ButtonOpenUpdateImageInUsePage"
+                Content="Open Update Image In Use Page"
+                Click="ButtonOpenUpdateImageInUsePage_Click"/>
+
+            <Button
+                x:Name="ButtonUpdateLocalImageFrequently"
+                Content="Open Update Local Image Frequently Page"
+                Click="ButtonUpdateLocalImageFrequently_Click"/>
+        </StackPanel>
+        
+    </ScrollViewer>
+</Page>
